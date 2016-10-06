@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+
+        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">CMS Admin</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about">List Pages</a></li>
+                            <li class="active"><a href="#about">Article Pages</a></li>
+                        </ul>
+                        <form class="navbar-form pull-right">
+                            
+                            <button type="submit" class="btn">Sign in</button>
+                        </form>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul class="breadcrumb">
+              <li><a href="#">Article Pages</a> <span class="divider">/</span></li>
+              <li><a href="#">The Plant</a> <span class="divider">/</span></li>
+              <li class="active">Company A Ecosystem</li>
+            </ul>
+            <!-- Main hero unit for a primary marketing message or call to action -->
+<form>
+            <div class="hero-unit">
+
+                <div class="row">
+                        <div class="span9">Page Title</div>
+                        <div class="span9">
+                            <input type="text" name="pagetitle" value="{{pagetitle}}"  class="span6" />
+                        </div>
+                        <div class="span9">Page Description</div>
+                        <div class="span9">
+                            <input type="text" name="pagedescription" value="{{pagedescription}}" class="span8" />
+                        </div>
+                </div>
+
+                <hr/>
+
+                <div class="row">
+                        <div class="span9">Page Heading</div>
+                        <div class="span9">
+                            <input type="text" name="pageh1" value="{{pageh1}}"  class="span8" />
+                        </div>
+                        <div class="span9">Date &amp; Time</div>
+                        <div class="span9">
+                            <input type="date" name="datentime" value="{{datentime}}" class="span6" />
+                        </div>
+                </div>
+
+                <div class="row" id="images">
+                        <div class="span9">Images</div>
+                        
+                        <div class="span9 img">
+                            1. <input type="file" name="img01" class="span6" />
+                        </div>
+                        <div class="span9 img">
+                            2. <input type="file" name="img02" class="span6" />
+                        </div>
+                        <div class="span9 img">
+                            3. <input type="file" name="img03" class="span6" />
+                        </div>
+                        <div class="span9 img">
+                            4. <input type="file" name="img04" class="span6" />
+                        </div>
+                        <div class="span9 img">
+                            5. <input type="file" name="img05" class="span6" />
+                        </div>
+                        
+                </div>
+                <div class="row">
+                    <div class="span9">
+                        <button type="button" class="btn btn-info" id="addimg">Add Image</button>
+                    </div>
+                    <div class="span9">&nbsp;</div>
+                </div>
+                <div class="row" id="paragraphs">
+                        <div class="span9">Page Paragraphs</div>
+                        <div class="span9 pageparagraph">
+                            <textarea rows="5" id="p1" class="span8">{{paragraph1}}</textarea>
+                        </div>
+                        
+                </div> 
+                <div class="row">
+                    <div class="span9">
+                        <button type="button" class="btn btn-info" id="addparagraph">Add Paragraph</button>
+                    </div>
+                    <div class="span9">&nbsp;</div>
+                </div> 
+            <hr/>
+            <div class="row">
+            <div class="span9">
+                <button type="button" class="btn btn-success" id="addimg">Submit Changes</button>
+            </div>
+        </div>
+        </div>
+</form>
+            <!-- Example row of columns -->
+            
+
+            <hr>
+
+            <footer>
+                <p>&copy; Company 2012</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

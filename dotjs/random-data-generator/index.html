@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <div id="grid" style="width: 100%; height: 250px;"></div>
+</body>
+<script>
+//
+var fname = ["Karina", "Erik", "Renya", "Krista", "Tata", "Anna", "Siara"];
+var sname = ["Berg", "Stone", "Cliff", "Green", "Sun", "White"];
+var gender = ["F", "M"];
+var sentence = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam porta, magna id commodo suscipit, leo orci sagittis lacus, eget vulputate orci neque ac arcu. Aenean volutpat odio tortor, ut fermentum lorem malesuada in. Suspendisse";
+var titleWords = sentence.split(" ");
+String.prototype.capitalizeFirstLetter = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+for (i=0;i<500;i++){
+    rname = fname[Math.floor(Math.random() * fname.length)];
+    rsname = sname[Math.floor(Math.random() * sname.length)];
+    rgender = gender[Math.floor(Math.random() * gender.length)];
+    bookTitle = titleWords[Math.floor((Math.random() * titleWords.length))].capitalizeFirstLetter() + " " + titleWords[Math.floor((Math.random() * titleWords.length))]  + " " + titleWords[Math.floor((Math.random() * titleWords.length))] + " " + titleWords[Math.floor((Math.random() * titleWords.length))];
+
+    console.log(rname + " " + rsname + ", " + rgender + ", " + bookTitle);
+}
+</script>
+<h1>Data in console log</h1>
+</html>

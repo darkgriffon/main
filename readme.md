@@ -36,6 +36,7 @@ PSD to HTML/CSS/JS, Building Internal Technical Interfaces for CMS's (which was 
 * PHP/MySQL - Experience from simple based pages to frameworks such as CodeIgniter, Symfony, Laravel, Zend (before other three were still in nappies);
 * Shell - just for anything;
 * VBscript - In Windows, mainly creating some script that helped in life and workflow as alternative to Shell.
+* XML/XSLT, JSON
 
 ###Programming languages worked with:
 * Java - Mainly to connect Front End on Internal systems;

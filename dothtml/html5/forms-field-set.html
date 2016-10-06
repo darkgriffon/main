@@ -1,0 +1,108 @@
+<!doctype html>  
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Example 21</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="css/style.css">
+
+<style>
+  :required 
+  { 
+    background-color: #C6E746; 
+  }
+  :invalid 
+  { 
+    background-color: red; 
+  }
+  
+    #box
+     {
+      background: #f4f4f4;
+      border: 1px solid #bbbbbb;
+      width: 500px;
+      height: 400px;
+      margin: 60px auto;
+      position: relative;
+    }
+    
+    #box:before 
+    {
+      border: 1px solid white;
+      content: '';
+      width: 498px;
+      height: 398px;
+      position: absolute;
+
+    }
+    
+    #box:after 
+    {
+      content: '';
+      position: absolute;
+      width: 496px;
+      height: 396px;
+      border: 1px solid #bbbbbb;
+      left: 1px; top: 1px;
+    }
+label
+{
+  width: 15em; 
+  float: left;  
+  text-align: right;  
+  margin-right: 0.5em;  
+  display: block
+}
+
+input
+{
+  margin-bottom:0.5em;
+}
+
+form
+{
+  margin-top:1em;
+}
+</style>
+
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+<h1>Forms 2.0</h1>
+    </header>
+    
+    <div id="box">    
+
+<form>
+<label>required</label><input type="text" required autofocus><br />
+<label>email</label><input type="email" value="some@email.com"><br />
+<label>date example, with a range</label><input type="date" min="2010-08-14" max="2011-08-14" value="2010-08-14"><br />
+<label>range example</label><input type="range" min="0" max="50" value="10"><br />
+<label>search example</label><input results="10" type="search" placeholder="Search..."><br />
+<label>pattern example</label><input type="tel" placeholder="(555) 555-5555" pattern="^\(?\d{3}\)?[-\s]\d{3}[-\s]\d{4}.*?$"><br />
+<label>placeholder example</label><input type="color" placeholder="e.g. #bbbbbb"><br />
+<label>step example</label><input type="number" step="1" min="-5" max="10" value="0"><br />
+</form>
+
+</div>
+  </div> 
+
+
+  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script>!window.jQuery && document.write('<script src="js/jquery-1.4.2.min.js"><\/script>')</script>
+  <script src="js/raphael-min.js"></script>
+   
+
+ <script src="jquery-ui/js/jquery-ui-1.8.5.custom.min.js"></script>
+</body>
+</html>
