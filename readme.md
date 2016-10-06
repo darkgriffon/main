@@ -29,9 +29,9 @@ PSD to HTML/CSS/JS, Building Internal Technical Interfaces for CMS's (which was 
 
 ##More Detailed
 ###Programming languages I think I know pretty good:
-* HTML/4/5 - I know it since time when table constructed pages were transitioned to div's up to responsive;
+* HTML/4/5 - I know it since time when table constructed pages were transitioned to div's up to responsive, code samples can be found in *dothtml*(https://github.com/mrericsunny/main/tree/master/dothtml);
 * CSS/2/3 - Pretty small I can say here, let's say I know when to use '>' and when it wouldn't be convenient to use CSS animation as it would be needed to be re-written in Javascript;   
-* Javascript - Don't know what to say here either, I have self made gallery engine *here* that should give some intro, experienced enough to say Javascript is not jQuery;
+* Javascript - Don't know what to say here either, I have some stuff uploaded to *dotjs*(https://github.com/mrericsunny/main/tree/master/dotjs/jquery-infinite-rotator) folder that should give some intro, experienced enough to say Javascript is not jQuery;
 * AJAX - this one is interesting, from simple in page non refresh up to CSFR request that worked only in IE (for internal stuff of course only);
 * PHP/MySQL - Experience from simple based pages to frameworks such as CodeIgniter, Symfony, Laravel, Zend (before other three were still in nappies);
 * Shell - just for anything;
@@ -46,7 +46,7 @@ PSD to HTML/CSS/JS, Building Internal Technical Interfaces for CMS's (which was 
 
 ###Programming languages I learned for fun:
 C, Objective-C - Currently developing texteditor in my spare time for fun, you browse on here*
-Python - very very versatile language, I love it because it can be bridge between server and shell, some experiments can be seen here*
+Python - very very versatile language, I love it because it can be bridge between server and shell, some experiments can be seen *here*(https://github.com/mrericsunny/main/tree/master/Lab/TextEditor-Test)
 
 
 
