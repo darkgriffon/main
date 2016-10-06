@@ -46,6 +46,7 @@ PSD to HTML/CSS/JS, Building Internal Technical Interfaces for CMS's (which was 
 
 ###Programming languages I learned for fun:
 C, Objective-C - Currently developing texteditor in my spare time for fun, you can see [*here*](https://github.com/mrericsunny/main/tree/master/Lab/TextEditor-Test)
+
 Python - very very versatile language, I love it because it can be bridge between server and shell.
 
 
